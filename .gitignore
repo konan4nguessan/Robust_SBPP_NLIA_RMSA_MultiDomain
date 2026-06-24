@@ -6,6 +6,7 @@
 # Java
 *.class
 *.log
+/*.jar
 
 # Generated scientific traces
 robust_nlia_trace_*.txt
