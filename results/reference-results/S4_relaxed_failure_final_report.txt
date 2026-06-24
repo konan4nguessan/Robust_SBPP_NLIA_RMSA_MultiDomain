@@ -1,0 +1,19 @@
+﻿Scenario: S4 relaxed, simple link failure
+Traffic load: 70 percent
+arrivals=1265
+accepted=488
+blocked=777
+failureEvents=1
+failedBidirectionalLinks=75:Node13->Node4 and 74:Node4->Node13
+lastAffectedConnections=16
+lastActivatedBackups=16
+lastAffectedGbps=2825.0
+lastRestoredGbps=2825.0
+lastLostGbps=0.0
+lastRestorationSuccessRatio=1.0
+postFailureQoTCheckedConnections=262
+postFailureQoTCheckedSlots=879
+postFailureQoTViolationsStrict=78
+postFailureQoTWorstHeadroomDb=-2.342418131883756
+postFailureQoTAverageHeadroomDb=1.3559798144155246
+averageRequestCpuMs=336.5062428458498

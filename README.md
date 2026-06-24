@@ -29,6 +29,10 @@ To create the processor JAR in Eclipse, use `File > Export > Java > JAR file`
 after the project compiles successfully. Load the generated JAR in Net2Plan to
 run the simulation.
 
+The 18-node, three-domain Net2Plan designs are stored in
+`data/networkTopologies`. Detailed instructions and reference configurations
+are available in `docs/REPRODUCIBILITY.md` and `config`.
+
 ## QoT modes
 
 The Net2Plan event processor exposes the `existingConnectionQoTGuard`

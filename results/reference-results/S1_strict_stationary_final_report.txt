@@ -1,0 +1,17 @@
+﻿Scenario: S1 strict, stationary state
+Traffic load: 70 percent
+arrivals=1265
+accepted=153
+blocked=1112
+intraDomainAccepted=124
+interDomainAccepted=29
+acceptedGbps=46943.31908959507
+bbp=0.9011618910589857
+fragmentation=0.4057245859735412
+averageLinkSpectralOccupancy=0.21394984326018807
+maxLinkSpectralOccupancy=0.41818181818181815
+failureEvents=0
+postFailureQoTViolationsStrict=0
+robustQoTValidations=1038341
+existingQoTValidations=164671824
+averageRequestCpuMs=5866.793787509881

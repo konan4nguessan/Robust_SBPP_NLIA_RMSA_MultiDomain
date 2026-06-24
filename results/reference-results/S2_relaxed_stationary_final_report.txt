@@ -1,0 +1,17 @@
+﻿Scenario: S2 relaxed, stationary state
+Traffic load: 70 percent
+arrivals=1265
+accepted=488
+blocked=777
+intraDomainAccepted=361
+interDomainAccepted=127
+acceptedGbps=156294.29325175998
+bbp=0.6709258594648403
+fragmentation=0.6347895466784877
+averageLinkSpectralOccupancy=0.6518808777429468
+maxLinkSpectralOccupancy=0.8909090909090909
+failureEvents=0
+postFailureQoTViolationsStrict=0
+robustQoTValidations=3606252
+existingQoTValidations=0
+averageRequestCpuMs=339.9617281422925

@@ -1,0 +1,19 @@
+﻿Scenario: S3 strict, simple link failure
+Traffic load: 70 percent
+arrivals=1265
+accepted=153
+blocked=1112
+failureEvents=1
+failedBidirectionalLinks=75:Node13->Node4 and 74:Node4->Node13
+lastAffectedConnections=4
+lastActivatedBackups=4
+lastAffectedGbps=1140.0
+lastRestoredGbps=1140.0
+lastLostGbps=0.0
+lastRestorationSuccessRatio=1.0
+postFailureQoTCheckedConnections=88
+postFailureQoTCheckedSlots=249
+postFailureQoTViolationsStrict=0
+postFailureQoTWorstHeadroomDb=1.644965793801134E-5
+postFailureQoTAverageHeadroomDb=1.5370174363830957
+averageRequestCpuMs=1337.5132495652174
