@@ -1,0 +1,15 @@
+# Eclipse
+/bin/
+/bin_check/
+/.settings/
+
+# Java
+*.class
+*.log
+
+# Generated scientific traces
+robust_nlia_trace_*.txt
+
+# Operating system
+.DS_Store
+Thumbs.db
