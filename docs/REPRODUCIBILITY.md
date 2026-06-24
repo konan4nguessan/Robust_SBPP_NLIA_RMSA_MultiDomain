@@ -25,9 +25,9 @@ parameters and the Event generator / Provisioning algorithm parameter panels.
 
 Use `topology_18nodes_3domains_70pct.n2p` for the reference runs. In all four
 scenarios, set the global Net2Plan simulation time to 3600 seconds and the
-transitory time to 150 seconds.
+transitory time to 300 seconds.
 
-For S3 and S4, the deterministic failure is injected at 2900 seconds on link
+For S3 and S4, the deterministic failure is injected at 2700 seconds on link
 75 (Node13 to Node4). The reverse directed link, 74 (Node4 to Node13), is also
 failed by the processor. Repair is disabled.
 
