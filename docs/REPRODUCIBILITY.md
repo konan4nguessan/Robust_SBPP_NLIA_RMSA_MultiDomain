@@ -36,6 +36,19 @@ failed by the processor. Repair is disabled.
 `results/reference-results` contains one final report for each scenario. The
 reports can be compared with the final Net2Plan simulation report after a run.
 
+The reference results were produced with the historical strict and relaxed
+processor JARs used during the dissertation experiments. The current project
+unifies both behaviors in one source code base through the
+`existingConnectionQoTGuard` parameter. A complete rerun with the unified JAR
+and `topology_18nodes_3domains_70pct.n2p` is recommended before claiming
+bit-for-bit reproduction of the historical reports.
+
+The original captures used `debug=true`, visualization enabled, a refresh
+period of 25 events, and FULL scientific traces. The portable configuration
+files keep scientific tracing disabled because each user must choose a local
+writable path. Enabling or disabling traces does not change the admission
+decision logic.
+
 ## Model scope
 
 The hierarchical SDN architecture is modeled in the simulation. The local

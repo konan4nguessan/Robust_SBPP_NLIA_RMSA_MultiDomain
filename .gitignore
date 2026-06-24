@@ -6,6 +6,7 @@
 # Java
 *.class
 *.log
+paper_text.txt
 /*.jar
 
 # Generated scientific traces

@@ -33,6 +33,9 @@ The 18-node, three-domain Net2Plan designs are stored in
 `data/networkTopologies`. Detailed instructions and reference configurations
 are available in `docs/REPRODUCIBILITY.md` and `config`.
 
+The source code is distributed under the MIT License. Net2Plan is an external
+dependency and is not bundled with this repository.
+
 ## QoT modes
 
 The Net2Plan event processor exposes the `existingConnectionQoTGuard`
